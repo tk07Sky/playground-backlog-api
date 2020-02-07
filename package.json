@@ -1,0 +1,19 @@
+{
+  "name": "backlog-api-playground",
+  "version": "1.0.0",
+  "repository": "https://github.com/tk07Sky/backlog-api-playground",
+  "author": "tk07Sky <recode.seadex777@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "serve": "firebase serve -p 5001 --only functions",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-promise": "^4.2.1"
+  }
+}
