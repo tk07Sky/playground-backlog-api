@@ -30,8 +30,7 @@ router
     const res = await fetch(url + apiKeyParam, options);
     const jsonRes = await res.json();
     ctx.body = { res: jsonRes };
-  })
-  .post();
+  });
 
 app.use(router.routes()).use(router.allowedMethods());
  
