@@ -19,7 +19,7 @@
     "firebase-functions": "^3.3.0",
     "koa": "^2.11.0",
     "koa-router": "^8.0.7",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "eslint": "^5.12.0",
